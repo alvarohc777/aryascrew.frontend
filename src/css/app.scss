@@ -1,0 +1,28 @@
+// app global css in SCSS form
+//  body {
+//     background-color: $secondary;
+//   }
+.text-brand {
+  color: $tertiary !important;
+}
+.bg-brand {
+  background: $primary !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+.bg-primary {
+  background: $primary !important;
+}
+.text-secondary {
+  color: $secondary !important;
+}
+.bg-secondary {
+  background: $secondary !important;
+}
+.text-tertiary {
+  color: $tertiary !important;
+}
+.bg-tertiary {
+  background: $tertiary !important;
+}
