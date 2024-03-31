@@ -12,8 +12,10 @@
         />
 
         <q-toolbar-title> Aryas Crew </q-toolbar-title>
-
-        <div>Aryas Crew | est. 2023</div>
+        <!-- <div v-if="$q.screen.gt.xs">Aryas Crew | est. 2023</div> -->
+        <q-toolbar-title shrink class="row items-center no-wrap">
+          <img src="Logos/logo_1_no_background.png" width="45px" />
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
