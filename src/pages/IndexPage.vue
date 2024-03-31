@@ -16,13 +16,9 @@
       </q-card>
     </div>
     <div
-      class="section-container testimonials row flex-center justify-around q-pa-xl"
+      class="section-container testimonials background row flex-center justify-around"
     >
-      <q-card class="my-card">
-        <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
-          <div class="absolute-bottom text-subtitle2 text-center">Title</div>
-        </q-img>
-      </q-card>
+      <testimonials-card></testimonials-card>
     </div>
     <div class="q-pa-md">
       <div
@@ -38,12 +34,13 @@
 
 <script setup>
 import AboutUs from 'src/components/AboutUs.vue'
+import TestimonialsCard from 'src/components/TestimonialsCard.vue'
 </script>
 <style lang="scss">
 .section-container {
   &.about-us {
     &.background {
-      background-image: url(about-us/aryasAboutUs.png);
+      background-image: url(src/assets/about-us/aryasAboutUs.png);
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -54,7 +51,10 @@ import AboutUs from 'src/components/AboutUs.vue'
     height: 40vh;
   }
   &.testimonials {
-    height: 50vh;
+    &.background {
+      height: 70vh;
+      width: 100vw;
+    }
   }
   &.contant-us {
     height: 20vh;
