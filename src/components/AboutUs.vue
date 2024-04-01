@@ -1,5 +1,5 @@
 <template>
-  <q-card class="my-card">
+  <q-card class="my-card shadow-8">
     <q-btn
       dense
       class="full-width full-height"
