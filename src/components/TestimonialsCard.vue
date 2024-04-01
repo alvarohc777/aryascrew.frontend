@@ -3,7 +3,7 @@
     <q-carousel arrows animated v-model="slide" height="100%">
       <q-carousel-slide
         name="first"
-        img-src="src/assets/carrousel/aryas_crew_1.png"
+        img-src="~assets/carrousel/aryas_crew_1.png"
         fit="fit"
       >
         <div class="absolute-bottom custom-caption">
@@ -13,7 +13,7 @@
       </q-carousel-slide>
       <q-carousel-slide
         name="second"
-        img-src="src/assets/carrousel/aryas_crew_2.png"
+        img-src="~assets/carrousel/aryas_crew_2.png"
       >
         <div class="absolute-bottom custom-caption">
           <div class="text-h2">Afrodita</div>
@@ -22,7 +22,7 @@
       </q-carousel-slide>
       <q-carousel-slide
         name="third"
-        img-src="src/assets/carrousel/aryas_crew_3.png"
+        img-src="~assets/carrousel/aryas_crew_3.png"
       >
         <div class="absolute-bottom custom-caption">
           <div class="text-h2">Thor</div>
