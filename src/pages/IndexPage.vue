@@ -16,14 +16,9 @@
     >
       <testimonials-card></testimonials-card>
     </div>
-    <div class="q-pa-md">
-      <div
-        class="section-container contant-us row flex-center justify-center items-center q-gutter-x-xl"
-      >
-        <q-icon name="fa-brands fa-facebook" />
-        <q-icon name="fa-brands fa-whatsapp" />
-        <q-icon name="fa-brands fa-instagram" />
-      </div>
+
+    <div class="section-container contant-us column flex-center">
+      <contact-us />
     </div>
   </q-page>
 </template>
@@ -32,6 +27,7 @@
 import AboutUs from 'src/components/AboutUs.vue'
 import TestimonialsCard from 'src/components/TestimonialsCard.vue'
 import OurServices from 'src/components/OurServices.vue'
+import ContactUs from 'src/components/ContactUs.vue'
 </script>
 <style lang="scss">
 .section-container {
@@ -58,7 +54,10 @@ import OurServices from 'src/components/OurServices.vue'
     }
   }
   &.contant-us {
-    height: 20vh;
+    height: 12vh;
+    width: 100%;
+    max-width: 1300px;
+    background-color: $tertiary;
   }
 
   /* margin-bottom: 40px; */
