@@ -36,8 +36,9 @@ import ContactUs from 'src/components/ContactUs.vue'
       background-image: url(src/assets/about-us/aryasAboutUs.png);
       background-size: cover;
       background-position: center;
-      height: 100vh;
-      width: 100vw;
+      height: 95vh;
+      width: 100%;
+      max-width: 1300px;
     }
   }
   &.our-services {
@@ -50,7 +51,8 @@ import ContactUs from 'src/components/ContactUs.vue'
   &.testimonials {
     &.background {
       height: 70vh;
-      width: 100vw;
+      width: 100%;
+      max-width: 1300px;
     }
   }
   &.contant-us {
