@@ -3,7 +3,7 @@
     <q-btn
       dense
       class="full-width full-height"
-      @click="navigateTo"
+      :to="{ name: 'aboutus' }"
       style="text-decoration: none"
     >
       <q-card-section class="absolute-center">
@@ -12,15 +12,7 @@
     </q-btn>
   </q-card>
 </template>
-<script setup>
-const navigateTo = () => {
-  window.open(
-    'https://api.whatsapp.com/send?phone=573207349966&text=KING%20OF%20PETS',
-    '_blank'
-  )
-  // window.location.href = 'http://google.com'
-}
-</script>
+
 <style scoped>
 .my-card {
   height: 70%;

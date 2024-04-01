@@ -11,8 +11,13 @@
         class="absolute-center text-center"
         style="width: 90%; max-width: 300px"
       >
-        <div class="text-h6">Entrenamientos</div>
-        <div class="text-subtitle2"></div>
+        <router-link
+          :to="{ name: 'services', hash: '#trainings' }"
+          class="full-height full-width"
+          style="text-decoration: none; color: inherit"
+        >
+          <div class="text-h6">Entrenamientos</div>
+        </router-link>
       </q-card-section>
     </q-img>
     <q-img
@@ -26,8 +31,13 @@
         class="absolute-center text-center"
         style="width: 90%; max-width: 300px"
       >
-        <div class="text-h6">Paseos</div>
-        <div class="text-subtitle2"></div>
+        <router-link
+          :to="{ name: 'services', hash: '#walks' }"
+          class="full-height full-width"
+          style="text-decoration: none; color: inherit"
+        >
+          <div class="text-h6">Paseos</div>
+        </router-link>
       </q-card-section>
     </q-img>
     <q-img
@@ -40,8 +50,13 @@
         class="absolute-center text-center"
         style="width: 90%; max-width: 300px"
       >
-        <div class="text-h6">Guardería</div>
-        <div class="text-subtitle2"></div>
+        <router-link
+          :to="{ name: 'services', hash: '#daycare' }"
+          class="full-height full-width"
+          style="text-decoration: none; color: inherit"
+        >
+          <div class="text-h6">Guardería</div>
+        </router-link>
       </q-card-section>
     </q-img>
   </q-card>

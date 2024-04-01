@@ -1,23 +1,26 @@
 <template>
   <q-page class="flex column flex-center justify-around">
     <div
+      id="aboutus"
       class="section-container about-us background row flex-center justify-center"
     >
       <about-us></about-us>
     </div>
 
     <div
+      id="services"
       class="section-container our-services background row flex-center justify-around"
     >
       <our-services />
     </div>
     <div
+      id="testimonials"
       class="section-container testimonials background row flex-center justify-around"
     >
       <testimonials-card></testimonials-card>
     </div>
 
-    <div class="section-container contant-us column flex-center">
+    <div id="contactus" class="section-container contant-us column flex-center">
       <contact-us />
     </div>
   </q-page>
@@ -29,7 +32,7 @@ import TestimonialsCard from 'src/components/TestimonialsCard.vue'
 import OurServices from 'src/components/OurServices.vue'
 import ContactUs from 'src/components/ContactUs.vue'
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .section-container {
   &.about-us {
     &.background {
