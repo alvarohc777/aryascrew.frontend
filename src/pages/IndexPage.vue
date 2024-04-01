@@ -7,13 +7,9 @@
     </div>
 
     <div
-      class="section-container our-services row flex-center justify-around q-pa-xl"
+      class="section-container our-services background row flex-center justify-around"
     >
-      <q-card class="my-card">
-        <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
-          <div class="absolute-bottom text-subtitle2 text-center">Title</div>
-        </q-img>
-      </q-card>
+      <our-services />
     </div>
     <div
       class="section-container testimonials background row flex-center justify-around"
@@ -35,6 +31,7 @@
 <script setup>
 import AboutUs from 'src/components/AboutUs.vue'
 import TestimonialsCard from 'src/components/TestimonialsCard.vue'
+import OurServices from 'src/components/OurServices.vue'
 </script>
 <style lang="scss">
 .section-container {
@@ -48,7 +45,11 @@ import TestimonialsCard from 'src/components/TestimonialsCard.vue'
     }
   }
   &.our-services {
-    height: 40vh;
+    &.background {
+      height: 70vh;
+      width: 100%;
+      max-width: 1300px;
+    }
   }
   &.testimonials {
     &.background {
