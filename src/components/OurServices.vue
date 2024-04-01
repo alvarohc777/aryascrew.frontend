@@ -54,17 +54,4 @@
   height: 100%;
   background: $tertiary;
 }
-.services {
-  height: 33%;
-  width: 50%;
-  &.training {
-    background: blue;
-  }
-  &.walks {
-    background: green;
-  }
-  &.daycare {
-    background: yellow;
-  }
-}
 </style>
