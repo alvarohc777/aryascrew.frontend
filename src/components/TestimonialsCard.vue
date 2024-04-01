@@ -1,6 +1,6 @@
 <template>
   <div style="width: 100vw; height: 100%">
-    <q-carousel arrows animated v-model="slide" height="100%">
+    <q-carousel arrows infinite animated v-model="slide" height="100%">
       <q-carousel-slide
         name="first"
         img-src="~assets/carrousel/aryas_crew_1.png"
