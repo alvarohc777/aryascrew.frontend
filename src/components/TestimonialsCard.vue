@@ -37,6 +37,24 @@
           <div class="text-subtitle1">Ladridos como truenos</div>
         </div>
       </q-carousel-slide>
+
+      <q-carousel-slide name="fourth" img-src="~assets/Dante/Dante2.jpeg">
+        <router-link
+          :to="{ name: 'dante' }"
+          class="full-height full-width"
+          style="text-decoration: none; color: inherit"
+        >
+          <div class="full-height full-width">
+            <div class="absolute-bottom custom-caption">
+              <div class="text-h2">Dante</div>
+              <div class="text-subtitle1">
+                Apoyemos su cirugía
+                <q-icon name="fa-solid fa-hand-holding-heart" size="xs" />
+              </div>
+            </div>
+          </div>
+        </router-link>
+      </q-carousel-slide>
     </q-carousel>
   </div>
 </template>
