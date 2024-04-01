@@ -11,10 +11,24 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Aryas Crew </q-toolbar-title>
+        <q-toolbar-title
+          ><router-link
+            :to="{ name: 'index' }"
+            class="full-height full-width"
+            style="text-decoration: none; color: inherit"
+          >
+            Aryas Crew
+          </router-link>
+        </q-toolbar-title>
         <!-- <div v-if="$q.screen.gt.xs">Aryas Crew | est. 2023</div> -->
         <q-toolbar-title shrink class="row items-center no-wrap">
-          <img src="Logos/logo_1_no_background.png" width="45px" />
+          <router-link
+            :to="{ name: 'index' }"
+            class="full-height full-width"
+            style="text-decoration: none; color: inherit"
+          >
+            <q-img src="Logos/logo_1_no_background.png" width="45px" />
+          </router-link>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
