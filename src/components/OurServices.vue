@@ -67,6 +67,7 @@
 .my-card {
   width: 100%;
   height: 100%;
-  background: $tertiary;
+  // background: $tertiary;
+  background-image: linear-gradient(to bottom, $tertiary, #bebdab);
 }
 </style>
