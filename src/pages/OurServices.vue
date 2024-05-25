@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex column flex-center justify-around">
-    <div
+    <!-- <div
       id="service"
       class="section-container our-services background column flex-center justify-center"
     >
@@ -30,7 +30,7 @@
           </q-card>
         </div>
       </div>
-    </div>
+    </div> -->
     <div
       id="trainings"
       class="section-container service background column flex-center justify-center"
