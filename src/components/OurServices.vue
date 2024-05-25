@@ -1,5 +1,5 @@
 <template>
-  <q-card square class="my-card">
+  <q-card square class="my-card" flat>
     <q-img
       src="~assets/our-services/training.jpg"
       height="33%"
