@@ -13,7 +13,7 @@
     >
       <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card" flat bordered>
-          <q-img src="src/assets/about-us/aryaScooter.png" height="600px" />
+          <q-img src="~assets/about-us/aryaScooter.png" height="600px" />
 
           <q-card-section>
             <div class="text-h4 q-mt-xs q-mb-xs text-orange-9">
@@ -43,7 +43,7 @@
     >
       <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card" flat bordered>
-          <q-img src="src/assets/about-us/Alex.png" height="600px" />
+          <q-img src="~assets/about-us/Alex.png" height="600px" />
 
           <q-card-section>
             <div class="text-h4 q-mt-xs q-mb-xs text-orange-9">
@@ -74,7 +74,7 @@
     >
       <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card" flat bordered>
-          <q-img src="src/assets/about-us/kris2.png" height="600px" />
+          <q-img src="~assets/about-us/kris2.png" height="600px" />
 
           <q-card-section>
             <div class="text-h4 q-mt-xs q-mb-xs text-orange-9">
@@ -147,7 +147,11 @@ import MisionVision from 'src/components/MisionVision.vue'
       height: 140vh;
 
       // background: $primary;
-      background-image: linear-gradient(to bottom, $tertiary, $primary);
+      background-image: linear-gradient(
+        to bottom,
+        $tertiary,
+        rgb(156, 135, 103)
+      );
     }
   }
   &.member {
