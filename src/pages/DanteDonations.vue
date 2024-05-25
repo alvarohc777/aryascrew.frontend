@@ -4,8 +4,15 @@
       class="section-container about-us background row flex-center justify-center"
     >
       <q-card class="my-card text-center">
-        <q-img src="~assets/Dante/Dante8.jpeg" height="100%" fit="cover">
-          <div class="absolute-bottom text-h4">Dona a dante</div>
+        <q-img
+          src="~assets/Dante/Dante8.jpeg"
+          height="100%"
+          fit="cover"
+          href="google.com"
+        >
+          <div class="absolute-bottom text-h4">
+            <q-btn> Dona a dante </q-btn>
+          </div>
         </q-img>
       </q-card>
     </div>
