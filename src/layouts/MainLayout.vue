@@ -69,6 +69,13 @@ const linksList = [
     link: 'https://www.instagram.com/aryas_crew/'
   },
   {
+    title: 'Tik Tok',
+    caption: '@aryascrewkilla',
+    icon: 'fa-brands fa-tiktok',
+    link: 'https://www.tiktok.com/@aryascrewkilla'
+  },
+
+  {
     title: 'Facebook',
     caption: 'Aryas Crew',
     icon: 'fa-brands fa-facebook',

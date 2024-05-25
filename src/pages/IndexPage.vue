@@ -6,6 +6,12 @@
     >
       <about-us></about-us>
     </div>
+    <div
+      id="tiktok"
+      class="section-container tiktok background row flex-center justify-center"
+    >
+      <tik-tok />
+    </div>
 
     <div
       id="services"
@@ -28,6 +34,7 @@
 
 <script setup>
 import AboutUs from 'src/components/AboutUs.vue'
+import TikTok from 'src/components/TikTok.vue'
 import TestimonialsCard from 'src/components/TestimonialsCard.vue'
 import OurServices from 'src/components/OurServices.vue'
 import ContactUs from 'src/components/ContactUs.vue'
@@ -42,6 +49,17 @@ import ContactUs from 'src/components/ContactUs.vue'
       height: 95vh;
       width: 100%;
       max-width: 1300px;
+    }
+  }
+  &.tiktok {
+    &.background {
+      height: 70vh;
+      width: 100%;
+      max-width: 1300px;
+      max-height: 60vh;
+
+      // background: $primary;
+      background-image: linear-gradient(to bottom, $primary, $tertiary);
     }
   }
   &.our-services {
