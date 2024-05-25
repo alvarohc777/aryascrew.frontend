@@ -43,7 +43,7 @@
     >
       <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card" flat bordered>
-          <q-img src="~assets/about-us/Alex.png" height="600px" />
+          <q-img src="~assets/about-us/alex3.png" height="600px" />
 
           <q-card-section>
             <div class="text-h4 q-mt-xs q-mb-xs text-orange-9">
