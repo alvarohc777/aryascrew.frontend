@@ -99,11 +99,12 @@
       </div>
     </div>
     <div
-      id="instagram"
-      class="section-container instagram background row flex-center justify-center"
+      id="facebook"
+      class="section-container facebook background row flex-center justify-center"
     >
-      <instagram-script />
+      <facebook-script />
     </div>
+
     <div
       id="about-us"
       class="section-container about-us background row flex-center justify-center"
@@ -120,7 +121,8 @@
 // import AboutUs from 'src/components/AboutUs.vue'
 
 import ContactUs from 'src/components/ContactUs.vue'
-import InstagramScript from 'src/components/InstagramScript.vue'
+// import InstagramScript from 'src/components/InstagramScript.vue'
+import FacebookScript from 'src/components/FacebookScript.vue'
 import MisionVision from 'src/components/MisionVision.vue'
 </script>
 <!-- <script async src="//www.instagram.com/embed.js"></script> -->
@@ -139,12 +141,12 @@ import MisionVision from 'src/components/MisionVision.vue'
       max-width: 1300px;
     }
   }
-  &.instagram {
+
+  &.facebook {
     &.background {
-      height: 70vh;
+      height: 85vh;
       width: 100%;
       max-width: 1300px;
-      height: 140vh;
 
       // background: $primary;
       background-image: linear-gradient(
@@ -154,6 +156,7 @@ import MisionVision from 'src/components/MisionVision.vue'
       );
     }
   }
+
   &.member {
     &.background {
       background-color: rgb(156, 135, 103);
@@ -161,6 +164,7 @@ import MisionVision from 'src/components/MisionVision.vue'
       width: 100%;
       max-width: 1300px;
     }
+
     &#arya {
       background-image: linear-gradient(
         to bottom,
@@ -169,10 +173,12 @@ import MisionVision from 'src/components/MisionVision.vue'
       );
       background-size: cover;
       background-position: center;
+
       > div {
         max-width: 700px;
       }
     }
+
     &#alex {
       background-image: linear-gradient(
         to bottom,
@@ -181,10 +187,12 @@ import MisionVision from 'src/components/MisionVision.vue'
       );
       background-size: cover;
       background-position: center;
+
       > div {
         max-width: 700px;
       }
     }
+
     &#kris {
       background-image: linear-gradient(
         to bottom,
@@ -193,11 +201,13 @@ import MisionVision from 'src/components/MisionVision.vue'
       );
       background-size: cover;
       background-position: center;
+
       > div {
         max-width: 700px;
       }
     }
   }
+
   &.contant-us {
     height: 12vh;
     width: 100%;

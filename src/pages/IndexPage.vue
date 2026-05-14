@@ -38,10 +38,10 @@
       </div>
     </div>
     <div
-      id="tiktok"
-      class="section-container tiktok background row flex-center justify-center"
+      id="facebook"
+      class="section-container facebook background row flex-center justify-center"
     >
-      <tik-tok />
+      <facebook-script />
     </div>
 
     <div
@@ -65,7 +65,8 @@
 
 <script setup>
 import AboutUs from 'src/components/AboutUs.vue'
-import TikTok from 'src/components/TikTok.vue'
+// import TikTok from 'src/components/TikTok.vue'
+import FacebookScript from 'src/components/FacebookScript.vue'
 import TestimonialsCard from 'src/components/TestimonialsCard.vue'
 import OurServices from 'src/components/OurServices.vue'
 import ContactUs from 'src/components/ContactUs.vue'
@@ -82,12 +83,13 @@ import ContactUs from 'src/components/ContactUs.vue'
       max-width: 1300px;
     }
   }
-  &.tiktok {
+
+  &.facebook {
     &.background {
-      height: 70vh;
+      height: 85vh;
       width: 100%;
       max-width: 1300px;
-      max-height: 60vh;
+      // max-height: 120vh;
 
       // background: $primary;
       background-image: linear-gradient(
@@ -97,6 +99,7 @@ import ContactUs from 'src/components/ContactUs.vue'
       );
     }
   }
+
   &.our-services {
     &.background {
       // background-color: rgb(156, 135, 103);
@@ -108,11 +111,13 @@ import ContactUs from 'src/components/ContactUs.vue'
       height: 95vh;
       width: 100%;
       max-width: 1300px;
+
       > div {
         max-width: 1000px;
       }
     }
   }
+
   &.testimonials {
     &.background {
       height: 70vh;
@@ -120,6 +125,7 @@ import ContactUs from 'src/components/ContactUs.vue'
       max-width: 1300px;
     }
   }
+
   &.contant-us {
     height: 12vh;
     width: 100%;
