@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  portfolio:
+    build:
+      context: .
+      target: develop
+    container_name: aryascrew.frontend
+    working_dir: /aryascrew.frontend
+    volumes:
+      - .:/aryascrew.frontend
+      - aryascrew.frontend_modules:/aryascrew.frontend/node_modules 
+    ports:
+      - 80:80
+    
+    entrypoint: /bin/sh -c "quasar dev -p 80"
+
+volumes:
+  aryascrew.frontend_modules:
+
