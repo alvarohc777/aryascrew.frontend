@@ -1,15 +1,17 @@
-# Stage 1: Build Stage
-FROM node:slim AS build
+# Stage 1: Develop Stage
+FROM node:slim AS develop
 WORKDIR /aryascrew.frontend/
-COPY . .
+
+COPY package*.json ./
 RUN npm install -g @quasar/cli
 RUN npm install
+
+# stage 2: Build Stage
+FROM develop as build
+COPY . .
 RUN quasar build
 
-RUN npm install
-RUN quasar build
-
-# Stage 2: Final Stage
+# Stage 3: Production Stage
 FROM nginx:1.25.3-alpine3.18 AS production-stage
 COPY --from=build /aryascrew.frontend/dist/spa/ /usr/share/nginx/html
 COPY nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
